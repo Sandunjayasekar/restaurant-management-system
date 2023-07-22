@@ -12,7 +12,15 @@
 
 <script>
 export default {
-    name: 'SignUp'
+    name: 'SignUp',
+    data(){
+        return (
+            name:'',
+            email:'',
+            password:''
+
+        )
+    }
 }
 </script>
 
