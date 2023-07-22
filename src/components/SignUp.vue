@@ -14,12 +14,12 @@
 export default {
     name: 'SignUp',
     data(){
-        return (
+        return {
             name:'',
             email:'',
             password:''
 
-        )
+        }
     }
 }
 </script>
